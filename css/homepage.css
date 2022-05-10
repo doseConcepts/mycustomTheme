@@ -1,0 +1,50 @@
+body {
+  background: lightyellow;
+  font-family: Anton;
+  font-weight: 300;
+}
+
+.container {
+  /* width: 80%; */
+  margin: 0 auto;
+  padding: 10px;
+}
+
+header {
+  background-image: url("../images/dnablue.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 15vh;
+}
+
+.logo {
+  float: left;
+  width: 250px;
+}
+
+nav {
+  float: right;
+  padding-right: 50px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 50px;
+  padding-top: 70px;
+}
+
+nav li a {
+  font-size: 20px;
+  color: orange;
+  text-transform: uppercase;
+}
+nav a:hover {
+  /* color: black; */
+}

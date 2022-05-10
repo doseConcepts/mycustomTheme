@@ -1,0 +1,40 @@
+body {
+    background: lightyellow;
+  }
+
+header {
+  /* background-image: url("../images/giphyRed.gif"); */
+  background: lightblue;
+  text-align: center;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: blue;
+  padding: 1em 0;
+  position: relative;
+}
+.logo {
+  background: crimson;
+  display: inline-block;
+  float: left;
+  width: 10%;
+  height: 10vh;
+}
+.navbar {
+  background: lightblue;
+  width: 100%;
+}
+.navbar ul li {
+  background: lightgreen;
+  border: 2px solid black;
+  margin: 10px;
+  display: inline-block;
+  float: right;
+  margin-left: auto;
+}
+.navbar ul li a {
+  color: white;
+}
+.navbar ul li a:hover {
+    color: orange;
+}
