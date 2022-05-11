@@ -6,7 +6,7 @@
 }
 
 .body-day{
-  background-color: #fff;
+  background-color: lightblue;
 }
 
 .box-day{
@@ -79,17 +79,17 @@
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: lightyellow;
   -webkit-transition: .4s;
   transition: .4s;
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: yellowgreen;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 2px darkblue;
 }
 
 input:checked + .slider:before {
